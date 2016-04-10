@@ -1,5 +1,5 @@
 /**
- * @fileOverview 统一播放器 HTML5播放器
+ * @fileOverview 播放器 HTML5播放器
  *
  */
 
@@ -15,7 +15,7 @@
 (function(x, $) {
 
 	/**
-	 * 统一播放器 带有控制栏的HTML5播放器
+	 * 播放器 带有控制栏的HTML5播放器
 	 */
 
 	function Html5Live(vWidth, vHeight) {

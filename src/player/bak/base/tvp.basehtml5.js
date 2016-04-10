@@ -2,7 +2,7 @@
 (function(x, $) {
 
 	/**
-	 * 统一播放器HTML5内核基类
+	 * 播放器HTML5内核基类
 	 * @class x.BaseHtml5
 	 * @extends x.BasePlayer
 	 */

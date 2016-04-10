@@ -1,12 +1,12 @@
 /**
- * @fileoverview 统一播放器H5内核 语言包
+ * @fileoverview 播放器H5内核 语言包
  */
 
 
 ;
 (function(x, $) {
 	/**
-	 * 统一播放器H5内核语言包
+	 * 播放器H5内核语言包
 	 * @type {Object}
 	 */
 	x.html5lang = {

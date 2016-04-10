@@ -2,7 +2,7 @@
 * @Author: xilie
 * @Date:   2016-04-11 00:29:56
 * @Last Modified by:   xilie
-* @Last Modified time: 2016-04-11 02:02:37
+* @Last Modified time: 2016-04-11 04:26:22
 */
 
 /**
@@ -12,7 +12,7 @@
 class BasePlayer {
 	constructor () {
 		this.modId = ""
-		this.$mod = null //显示整个统一播放器输出内容的容器，$查询结果
+		this.$mod = null //显示整个播放器输出内容的容器，$查询结果
 		this.$videomod = null //仅播放器的容器
 		this.playerid = "" // 当前实例
 		this.curVideo = null // 视频对象

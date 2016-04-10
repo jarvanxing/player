@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器H5内核 功能性tips
+ * @fileoverview 播放器H5内核 功能性tips
  *
  */
 

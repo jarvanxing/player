@@ -122,7 +122,7 @@
 			}
 
 			var host = "";
-			//如果是使用的统一播放器iframe版本，则需要获取顶部的url，由于可能跨域所以从referrer里取
+			//如果是使用的播放器iframe版本，则需要获取顶部的url，由于可能跨域所以从referrer里取
 			//被iframe的页面的referrer是其父页面的url
 			if (document.location.href.indexOf("http://v.qq.com/iframe/") >= 0 && window != top) {
 				var l = document.referrer;

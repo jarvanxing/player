@@ -4,7 +4,7 @@
  */
 
 /**
- *      一句话概括统一播放器2.0：
+ *      一句话概括播放器2.0：
  *
  *   高端大气上档次，低调奢华有内涵
  *   奔放洋气有深度，简约时尚国际范
@@ -47,7 +47,7 @@
 			cfg = {},
 			liveDefer = {}, // 注意 ，这里是个对象，因为每个频道都要重新判断当前平台的播放情况
 			playerClass = "FlashPlayer",
-			errMsg = ["未指明播放器内核", "您当前使用的统一播放器JS文件不包含指定的播放器内核", "video未初始化"],
+			errMsg = ["未指明播放器内核", "您当前使用的播放器JS文件不包含指定的播放器内核", "video未初始化"],
 			playerArray = ["FlashPlayer", "FlashLivePlayer", "MP4Link", "OcxPlayer"],
 			playerArrayUI = ["Html5Player", "Html5Live"],
 			playerArrayTiny = ["Html5Tiny", "Html5LiveTiny"];
@@ -302,7 +302,7 @@
 	};
 
 	/**
-	 * 统一播放器对象
+	 * 播放器对象
 	 *
 	 * @class x.Player
 	 * @param {number} vWidth 播放器宽度 单位像k素
@@ -366,7 +366,7 @@
 					if (p.substr(0, 2) == "on" && $.isFunction(t[p]) && t[p] != x.$.noop) continue;
 					t[p] = t.instance[p];
 				}
-				//init完毕会自动调用write，所以这里针对各种播放器统一执行onwrite事件
+				//init完毕会自动调用write，所以这里针对各种播放器执行onwrite事件
 				//如果提到各个播放器的write函数里分别执行onwrite，可能会导致因为没有执行到上面几行代码
 				//引起最外层new出来的player对象没有内部播放器的接口
 				f.callCBEvent("onwrite");

@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器H5播放暂停按钮
+ * @fileoverview 播放器H5播放暂停按钮
  *
  */
 

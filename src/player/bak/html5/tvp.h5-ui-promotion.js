@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器H5内核控制栏下载App文字提示
+ * @fileoverview 播放器H5内核控制栏下载App文字提示
  *
  */
 

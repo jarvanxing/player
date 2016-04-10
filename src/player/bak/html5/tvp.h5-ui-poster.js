@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器H5内核 poster遮罩层
+ * @fileoverview 播放器H5内核 poster遮罩层
  *
  */
 

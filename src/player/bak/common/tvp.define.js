@@ -24,7 +24,7 @@ x.ver = "$V2.0Build1011$";
  * 框架名称
  * @type {String}
  */
-x.name = "统一播放器";
+x.name = "播放器";
 
 //借助uglify可以实现条件编译，比如if(DEBUG){console.log("test")}
 //如果uglify设置DEBUG为false，那么整个语句都不会出现在最终relase的代码文件中

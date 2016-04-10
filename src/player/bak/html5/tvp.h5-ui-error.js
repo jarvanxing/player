@@ -1,3 +1,3 @@
 /**
- * @fileoverview 统一播放器 H5播放器内核 出错层展示
+ * @fileoverview 播放器 H5播放器内核 出错层展示
  */

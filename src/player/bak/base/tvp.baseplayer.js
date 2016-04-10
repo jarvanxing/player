@@ -23,7 +23,7 @@
 
 		this.modId = "",
 		this.sessionId = "", //当前回话id，每次创建播放器都有自己的sessionid，主要用于一些统计上报，区分每次输出播放器的多次上报
-		this.$mod = null, //显示整个统一播放器输出内容的容器，$查询结果
+		this.$mod = null, //显示整个播放器输出内容的容器，$查询结果
 		this.videomod = null, //仅播放器的容器
 		this.playerid = "", // 当前实例
 		this.curVideo = null, // 视频对象

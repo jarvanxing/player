@@ -1,5 +1,5 @@
 /**
- * @fileOverview 统一播放器 HTML5播放器 控制栏
+ * @fileOverview 播放器 HTML5播放器 控制栏
  *
  */
 

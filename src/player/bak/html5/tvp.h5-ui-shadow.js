@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器H5内核shadow遮罩层用于覆盖一个透明div放到video标签正上方拦截用户直接对video的触摸操作的默认逻辑
+ * @fileoverview 播放器H5内核shadow遮罩层用于覆盖一个透明div放到video标签正上方拦截用户直接对video的触摸操作的默认逻辑
  *
  */
 

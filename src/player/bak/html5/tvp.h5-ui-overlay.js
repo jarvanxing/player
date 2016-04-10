@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器H5内核遮罩插件
+ * @fileoverview 播放器H5内核遮罩插件
  *
  */
 

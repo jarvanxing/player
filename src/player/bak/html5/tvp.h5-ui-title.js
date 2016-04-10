@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器 H5内核 logo
+ * @fileoverview 播放器 H5内核 logo
  */
 
 ;

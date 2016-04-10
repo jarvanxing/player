@@ -1,5 +1,5 @@
 /**
- * @fileoverview 统一播放器 H5内核 logo
+ * @fileoverview 播放器 H5内核 logo
  * 处理逻辑：
  * 1.先从getinfo里找到sfl字段，这里列出当前视频文件的所有语言支持的软字幕
  * 2.选择sfl里某一个id，从getsurl里获取到当前语言字幕的所有url

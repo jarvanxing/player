@@ -1,5 +1,5 @@
 /**
- * @fileOverview 统一播放器 HTML5播放器的清晰度切换API
+ * @fileOverview 播放器 HTML5播放器的清晰度切换API
  * 
  */
 
