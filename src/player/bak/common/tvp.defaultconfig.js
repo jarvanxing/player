@@ -1,10 +1,10 @@
 /**
- * @fileoverview 统一播放器默认配置
+ * @fileoverview 播放器默认配置
  *
  */
 
 /**
- * 统一播放器参数值定义
+ * 播放器参数值定义
  * @namespace x.PLAYER_DEFINE
  * @type {Object}
  * @ignore
@@ -25,7 +25,7 @@ x.PLAYER_DEFINE = {
 };
 
 /**
- * 统一播放器默认配置
+ * 播放器默认配置
  * @namespace x.defaultConfig
  * @type {Object}
  */
@@ -89,18 +89,6 @@ x.defaultConfig = {
 	playerid: "",
 
 	/**
-	 * 专辑id
-	 * @type {String}
-	 */
-	coverId: "",
-
-	/**
-	 * 分类id
-	 * @type {Number}
-	 */
-	typeId: 0,
-
-	/**
 	 * 默认loading图片
 	 * @type {String}
 	 */
@@ -116,25 +104,7 @@ x.defaultConfig = {
 	 * 播放器类别
 	 * @type {String}
 	 */
-	playerType: "auto",
-
-	/**
-	 * loading动画的swf地址
-	 * @type {String}
-	 */
-	loadingswf: "",
-
-	// *
-	//  * 是否是付费模式
-	//  * @type {Boolean}
-
-	// isPay: false,
-
-	/**
-	 * 广告订单id
-	 * @type {String}
-	 */
-	oid: "",
+	playerType: "html5",
 
 	/**
 	 * 是否显示分享
@@ -269,152 +239,6 @@ x.defaultConfig = {
 	 */
 	isIOSVideoOffset: true,
 
-	//==========================================================================
-
-	/**
-	 * flash播放器的wmode
-	 * @type {String}
-	 */
-	flashWmode: "direct",
-
-	/**
-	 * flash点播播放器地址
-	 * @type {String}
-	 */
-	vodFlashUrl: "",
-
-	/**
-	 * flash点播播放器类型
-	 * @type {String}
-	 */
-	vodFlashType: "TPout",
-
-	/**
-	 * flash点播播放器扩展flashvars参数
-	 * @type {Object}
-	 */
-	vodFlashExtVars: {},
-
-	/**
-	 * 点播flash播放器listtype参数
-	 * @type {Number}
-	 */
-	vodFlashListType: 2,
-
-	/**
-	 * flash点播播放器皮肤地址
-	 * @type {String}
-	 */
-	vodFlashSkin: "",
-
-	/**
-	 * flash点播播放器是否出现设置按钮
-	 * @type {Boolean}
-	 */
-	isVodFlashShowCfg: true,
-
-	/**
-	 * flash点播播放器播放结束出现结束推荐
-	 * @type {Boolean}
-	 */
-	isVodFlashShowEnd: true,
-
-
-	/**
-	 * flash点播播放器是否出现搜索框
-	 * @type {Boolean}
-	 */
-	isVodFlashShowSearchBar: true,
-
-
-	/**
-	 * flash点播播放器是否出现“下一个视频”按钮
-	 * @type {Boolean}
-	 */
-	isVodFlashShowNextBtn: true,
-
-
-	/**
-	 * 直播播放器swf的url地址
-	 * @type {String}
-	 */
-	liveFlashUrl: "",
-
-	/**
-	 * 直播播放器类型
-	 * @type {String}
-	 */
-	liveFlashSwfType: "TencentPlayerLive",
-
-	/**
-	 * 直播播放器是否显示设置按钮
-	 * @type {Boolean}
-	 */
-	isLiveFlashShowConfigBtn: true,
-
-
-	/**
-	 * 直播播放器是否显示全屏按钮
-	 * @type {Boolean}
-	 */
-	isLiveflashShowFullBtn: true,
-
-
-	/**
-	 * 直播播放器是否显示配置菜单
-	 * @type {Boolean}
-	 */
-	isLiveFlashShowCfg: true,
-
-	/**
-	 * 直播播放器右上角水印图片
-	 * @type {String}
-	 */
-	liveFlashWatermark: "",
-
-	/**
-	 * 直播播放器皮肤类型，不传入则flash播放器内部会默认为live
-	 * weidiantai:微电台，weidianshi:微电视，live:腾讯直播，inlive:公司内部直播
-	 * @type {String}
-	 */
-	liveFlashAppType: "",
-
-	/**
-	 * 直播播放器扩展flashvars
-	 * @type {Object}
-	 */
-	liveFlashExtVars: {},
-	//============================== 控件配置 =================================
-
-	/**
-	 * 控件控制栏地址
-	 * @type {String}
-	 */
-	ocxControlBar: "",
-
-	/**
-	 * 控件控制栏高度
-	 * @type {Number}
-	 */
-	ocxControlHeight: 60,
-
-	/**
-	 * 控件皮肤
-	 * @type {String}
-	 */
-	ocxSkin: "",
-
-	/**
-	 * 控件播放器暂停的时候是否在画面上显示暂停按钮
-	 * @type {Boolean}
-	 */
-	isOcxShowPauseBtn: false,
-
-	/**
-	 * 控件是否隐藏控制栏
-	 * @type {Boolean}
-	 */
-	isOcxHideControl: false,
 
 	//========================插件配置=============================
 
@@ -426,51 +250,9 @@ x.defaultConfig = {
 	 */
 	plugins: {
 		/**
-		 * 是否显示下载App的Banner
+		 * 结束推荐
 		 * @type {Boolean}
 		 */
-		AppBanner: false,
-		/**
-		 * 是否在暂停/结束后显示下载App的Banner和微信推荐视频
-		 * @type {Boolean}
-		 */
-		AppRecommend: false,
-		/**
-		 * [是否在暂停时在画面底部浮出appbanner]
-		 * @type {Boolean}
-		 */
-		AppDownloadOnPause: false
-	},
-
-	/**
-	 * 插件JS存放路径，key是插件名，value是插件的JS路径，跟下面的libpath组合成完成的URL地址
-	 * 如果定义了这里的路径，那么会异步加载，否则会探测当前页面是否有对应的build+插件名的函数
-	 * @type {Object}
-	 */
-	pluginUrl: {
-		"AppBanner": "js/plugins/appbanner.js?v=20140114",
-		"AppRecommend": "js/plugins/apprecommend.js?v=20140114",
-		"AppDownloadOnPause": "js/plugins/appdownloadonpause.js?v=20140110"
-	},
-
-	/**
-	 * css存放根目录
-	 * @type {string}
-	 */
-	cssPath: "http://imgcache.gtimg.cn/tencentvideo_v1/vstyle/mobile/v2/style/",
-	/**
-	 * 插件css存放路径，key是插件名，value是插件的JS路径，跟上面的cssPath组合成完成的URL地址
-	 * 插件的css地址都只从这里找
-	 * @type {Object}
-	 */
-	pluginCssUrl: {
-		"AppRecommend": "player_plugins_apprecommend.css?v=20131127",
-		"AppDownloadOnPause": "player_plugins_appdownloadonpause.css?v=20131211"
-	},
-	/**
-	 * 统一播放器框架的存放路径
-	 * @type {String}
-	 */
-	libpath: "http://qzs.qq.com/tencentvideo_v1/x/"
-
+		Recommend: false
+	}
 };

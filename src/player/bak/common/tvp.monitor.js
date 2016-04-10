@@ -137,41 +137,7 @@
 			if (host == "") {
 				host = document.location.hostname || document.location.host;
 			}
-			var keys = [{
-					r: /(\w+\.)?weixin\.qq\.com$/i,
-					v: 6
-				},
-				//
-				{
-					r: /^(v|film)\.qq\.com$/i,
-					v: 1
-				},
-				//腾讯新闻
-				{
-					r: /^news\.qq\.com$/i,
-					v: 2
-				},
-				//Qzone
-				{
-					r: /(\w+\.)?qzone\.qq\.com$/i,
-					v: 3
-				},
-				//腾讯微博
-				{
-					r: /(\w+\.)?t\.qq\.com$/i,
-					v: 5
-				},
-				//3g.v.qq.com
-				{
-					r: /^3g\.v\.qq\.com$/i,
-					v: 8
-				},
-				//m.v.qq.com
-				{
-					r: /^m\.v\.qq\.com$/i,
-					v: 10
-				}
-			];
+			var keys = [];
 			host = host.toLowerCase();
 			for (var i = 0, len = keys.length; i < len; i++) {
 				var key = keys[i];
